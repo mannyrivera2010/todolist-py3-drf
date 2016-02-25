@@ -27,4 +27,7 @@ Some commands
  ~/programs/python343/python -m venv env    
 source env/bin/activate
 ````
+
+Followed http://www.django-rest-framework.org/tutorial/quickstart/    
+
  
