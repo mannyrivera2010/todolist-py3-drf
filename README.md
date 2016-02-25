@@ -12,3 +12,5 @@ A sample todo list project to learn about Django REST Framework.
  - User can own Lists, not visible to other users
  - Items shall have a Title, Description, State (New, Done)
 
+## For Developers
+This section should be helper for developers    
