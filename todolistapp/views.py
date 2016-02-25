@@ -17,3 +17,10 @@ class ListViewSet(viewsets.ModelViewSet):
     """
     queryset = models.List.objects.all()
     serializer_class = serializers.ListSerializer
+
+class ItemViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows users to be viewed or edited.
+    """
+    queryset = models.Item.objects.all()
+    serializer_class = serializers.ItemSerializer

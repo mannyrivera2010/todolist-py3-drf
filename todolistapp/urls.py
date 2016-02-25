@@ -10,6 +10,7 @@ import todolistapp.views as views
 router = routers.DefaultRouter()
 
 router.register(r'list', views.ListViewSet)
+router.register(r'item', views.ItemViewSet)
 
 # Wire up our API using automatic URL routing.
 urlpatterns = [
