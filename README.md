@@ -14,3 +14,17 @@ A sample todo list project to learn about Django REST Framework.
 
 ## For Developers
 This section should be helper for developers    
+Developer shall be familiar with
+ - Python 3
+ - REST
+ - Django
+ - Django REST Framework
+ - 
+
+## Notes
+Some commands
+````
+ ~/programs/python343/python -m venv env    
+source env/bin/activate
+````
+ 
