@@ -9,12 +9,10 @@ https://docs.djangoproject.com/en/1.9/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.9/ref/settings/
 """
-
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
@@ -26,7 +24,6 @@ SECRET_KEY = '9zl%^5l1vj=1yg^g#iju6j&_@sb4z#+@r)3_5$jfg)cmt(8v4@'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -160,7 +157,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 # MEDIA_URL is the relative browser URL to be used when accessing media files
 #   from the browser
-MEDIA_URL='media/'
+MEDIA_URL='/media/'
 
 
 # NOTE: In production, change this to memcached

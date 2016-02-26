@@ -23,6 +23,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^docs/', include('rest_framework_swagger.urls')),
     url(r'^api/', include('todolistapp.urls')),
+
 ]
 
 # in debug, serve the media and static resources with the django web server

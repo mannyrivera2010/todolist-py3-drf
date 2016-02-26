@@ -11,6 +11,5 @@ from django.contrib import admin
 import todolistapp.models as models
 
 # Register models for admin interface
-
-admin.site.register(models.List)
-admin.site.register(models.Item)
+admin.site.register(models.TodoList)
+admin.site.register(models.TodoItem)
