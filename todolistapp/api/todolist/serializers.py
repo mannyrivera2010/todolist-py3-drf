@@ -22,9 +22,9 @@ class ItemSerializer(serializers.ModelSerializer):
         read_only_fields = ('id',)
 
 class ListSerializer(serializers.ModelSerializer):
-    item_set = ItemSerializer(many=True,  label='items')
+    todoitem_set = ItemSerializer(many=True)
 
     class Meta:
         model = models.TodoList
-        fields = ('id', 'title', 'item_set')
+        fields = ('id', 'title', 'todo_set')
         read_only_fields = ('id',)
