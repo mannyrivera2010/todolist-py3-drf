@@ -1,4 +1,4 @@
-# todolist-py3-drf [![Build Status][travis-image]][travis-url]
+# todolist-py3-drf     [![Build Status][travis-image]][travis-url]
 A sample todo list project to learn about Django REST Framework.
 
 ## TODO
